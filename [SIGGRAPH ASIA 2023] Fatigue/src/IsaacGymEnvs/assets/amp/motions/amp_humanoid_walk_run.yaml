@@ -1,0 +1,3 @@
+motions:
+  - {file: amp_humanoid_walk.npy, weight: 0.5}
+  - {file: amp_humanoid_run.npy, weight: 0.5}
