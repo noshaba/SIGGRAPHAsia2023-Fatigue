@@ -1,0 +1,207 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/TabbedMenu/TabbedMenu-style.uss?fileID=7433441132597879392&amp;guid=8204a030b2174f305abb2e2d52dbf1ac&amp;type=3#TabbedMenu-style" />
+
+    <ui:VisualElement name="TabMenu" style="height: 25%; bottom: 0; top: auto; position: absolute; width: 100%;">
+        <ui:VisualElement name="tabs" style="color: rgb(0, 0, 0);">
+            <ui:Label name="AbdomenTab" text="Abdomen" class="tab currentlySelectedTab" />
+            <ui:Label name="NeckTab" text="Neck" class="tab" />
+            <ui:Label name="RightHipTab" text="RightHip" class="tab" />
+            <ui:Label name="LeftHipTab" text="LeftHip" class="tab" />
+            <ui:Label name="RightKneeTab" text="RightKnee" class="tab" />
+            <ui:Label name="LeftKneeTab" text="LeftKnee" class="tab" />
+            <ui:Label name="RightAnkleTab" text="RightAnkle" class="tab" />
+            <ui:Label name="LeftAnkleTab" text="LeftAnkle" class="tab" />
+            <ui:Label name="RightShoulderTab" text="RightShoulder" class="tab" />
+            <ui:Label name="LeftShoulderTab" text="LeftShoulder" class="tab" />
+            <ui:Label name="RightElbowTab" text="RightElbow" class="tab" />
+            <ui:Label name="LeftElbowTab" text="LeftElbow" class="tab" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="tabContent" style="bottom: 0; background-color: rgba(76, 76, 76, 0);">
+            <ui:VisualElement name="AbdomenContent" class="selectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="NeckContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightHipContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="LeftHipContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightKneeContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="LeftKneeContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightAnkleContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="LeftAnkleContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightShoulderContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="LeftShoulderContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="y" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="z" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="RightElbowContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="LeftElbowContent" class="unselectedContent">
+                <ui:VisualElement style="width: 100%; height: 100%; justify-content: center;">
+                    <ui:VisualElement name="x" style="height: 33%; justify-content: center;">
+                        <ui:ProgressBar name="RC" class="RCBar" />
+                        <ui:ProgressBar name="TL" class="TLBar" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+
+
+    <ui:VisualElement style="position: absolute; left: 0; top: 0; width: 30%; height: 10%;">
+        <ui:ProgressBar name="Average-RC" low-value="0" high-value="100" class="RCBar" />
+        <ui:ProgressBar name="Average-TL" low-value="0" heigh-value="100" class="TLBar" />
+    </ui:VisualElement>
+
+
+    <ui:VisualElement name="ControlPannel" style="position: absolute; right: 0; width: 15%; height: 15%; bottom: 30%;">
+        <ui:Slider picking-mode="Ignore" label="F" value="0.2" high-value="1" name="FatigueF-Slider" class="slider" style="height: 20%;" />
+        <ui:Slider picking-mode="Ignore" label="R" value="0.5" high-value="1" name="FatigueR-Slider" style="height: 20%;" />
+        <ui:Slider picking-mode="Ignore" label="r" value="2" high-value="10" name="Fatigue_r-Slider" low-value="1" style="height: 25%;" />
+    </ui:VisualElement>
+</ui:UXML>

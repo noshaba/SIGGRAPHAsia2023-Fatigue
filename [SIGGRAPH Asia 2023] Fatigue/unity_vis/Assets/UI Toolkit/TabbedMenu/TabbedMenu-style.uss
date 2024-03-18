@@ -1,0 +1,74 @@
+#tabs {
+    flex-basis: 10%;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    -unity-font-style: bold;
+    font-size: 14px;
+}
+
+.tab {
+    flex-grow: 1;
+    opacity: 75%;
+    -unity-background-image-tint-color: rgb(100, 100, 100);
+}
+
+.currentlySelectedTab {
+    opacity: 100%;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+#tabContent {
+    flex-basis: 90%;
+    font-size: 20px;
+}
+
+#ControlPannel > Slider > Label {
+    color: rgb(255, 255, 255);
+}
+
+#ControlPannel > Slider > VisualElement {
+    margin-left: 10px;
+}
+
+#ControlPannel > Slider TextField > #unity-text-input {
+    color: black;
+    background-color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+}
+
+#ControlPannel > TextField {
+    color: rgb(255, 0, 0);
+    background-color: blue;
+}
+
+#ControlPannel > TextField > #unity-text-input {
+    background-color: blue;
+    opacity: 0.5;
+    color: black;
+}
+
+.RCBar .unity-progress-bar__background {
+    background-color: rgb(255, 0, 0);
+}
+
+.RCBar .unity-progress-bar__progress {
+    background-color: rgb(0, 255, 0);
+}
+
+.TLBar .unity-progress-bar__background {
+    background-color: rgb(255, 255, 255);
+}
+
+.TLBar .unity-progress-bar__progress {
+    background-color: yellowgreen;
+}
+
+#ControlPannel .unity-base-slider__tracker {
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#ControlPannel > Slider > Label {
+    width: 30%;
+}

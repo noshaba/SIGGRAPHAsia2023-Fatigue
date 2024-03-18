@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="height: 50%; width: 20%; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; align-items: stretch; flex-wrap: wrap;">
+        <ui:Slider label="F" value="0.2" high-value="1" show-input-field="true" name="Fatigue-Slider" style="align-items: stretch; flex-direction: row; justify-content: flex-start;" />
+    </ui:VisualElement>
+</ui:UXML>

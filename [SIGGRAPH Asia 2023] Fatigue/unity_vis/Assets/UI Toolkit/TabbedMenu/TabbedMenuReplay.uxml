@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/TabbedMenu/TabbedMenu-style.uss?fileID=7433441132597879392&amp;guid=8204a030b2174f305abb2e2d52dbf1ac&amp;type=3#TabbedMenu-style" />
+    <ui:VisualElement name="TabMenu" style="height: 25%; bottom: 0; top: auto; position: absolute; width: 98%; left: 1%;">
+        <ui:VisualElement name="tabs" style="color: rgb(0, 0, 0); flex-basis: 20%;">
+            <ui:Label name="AbdomenTab" text="Abdomen" class="tab currentlySelectedTab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="NeckTab" text="Neck" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="RightHipTab" text="RightHip" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="LeftHipTab" text="LeftHip" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="RightKneeTab" text="RightKnee" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="LeftKneeTab" text="LeftKnee" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="RightAnkleTab" text="RightAnkle" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="LeftAnkleTab" text="LeftAnkle" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="RightShoulderTab" text="RightShoulder" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="LeftShoulderTab" text="LeftShoulder" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="RightElbowTab" text="RightElbow" class="tab" style="-unity-text-align: middle-center;" />
+            <ui:Label name="LeftElbowTab" text="LeftElbow" class="tab" style="-unity-text-align: middle-center;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="tabContent" style="bottom: 1%; background-color: rgba(76, 76, 76, 0); flex-basis: 80%;">
+            <ui:VisualElement name="AbdomenContent" class="selectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="NeckContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="RightHipContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="LeftHipContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="RightKneeContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="LeftKneeContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="RightAnkleContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="LeftAnkleContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="RightShoulderContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="LeftShoulderContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="RightElbowContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+            <ui:VisualElement name="LeftElbowContent" class="unselectedContent" style="background-color: rgba(70, 70, 70, 0);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
