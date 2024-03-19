@@ -31,7 +31,7 @@
         </ui:VisualElement>
     </ui:VisualElement>
     <ui:VisualElement name="ControlPannel" style="position: absolute; right: 78%; width: 20%; height: 15%; bottom: 65%; font-size: 30px; -unity-text-align: middle-left; -unity-font-style: bold-and-italic; -unity-font: url(&apos;project://database/Library/unity%20default%20resources?fileID=10102&amp;guid=0000000000000000e000000000000000&amp;type=0#Arial&apos;); color: rgb(255, 254, 254); display: flex;">
-        <ui:Slider picking-mode="Ignore" label="F" value="0.2" high-value="1" name="FatigueF-Slider" class="slider" style="height: 20%; -unity-text-outline-color: rgb(255, 255, 255); color: rgb(255, 255, 255);" />
+        <ui:Slider picking-mode="Ignore" label="F" value="0.2" high-value="3" name="FatigueF-Slider" class="slider" style="height: 20%; -unity-text-outline-color: rgb(255, 255, 255); color: rgb(255, 255, 255);" />
         <ui:Slider picking-mode="Ignore" label="R" value="0.5" high-value="1" name="FatigueR-Slider" style="height: 20%;" />
         <ui:Slider picking-mode="Ignore" label="r" value="2" high-value="10" name="Fatigue_r-Slider" low-value="1" style="height: 25%;" />
     </ui:VisualElement>
