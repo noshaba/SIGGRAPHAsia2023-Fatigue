@@ -12,7 +12,7 @@
 <b>SIGGRAPH Asia 2023 Conference Paper</b>
 </p>
 
-<img src ="Media/fatigue_teaser.gif" width="100%">
+<img src ="Media/teaser.gif" width="100%">
 
 <p align="center">
 <b>
