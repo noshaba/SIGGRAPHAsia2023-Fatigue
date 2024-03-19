@@ -1,14 +1,14 @@
 # [SIGGRAPH Asia 2023] Discovering Fatigued Movements for Virtual Character Animation
 
 <p align="center">
-<a href="">Noshaba Cheema</a> | 
-<a href="">Rui Xu</a> |
-<a href="">Nam Hee Kim</a> |
-<a href="">Perttu Hämäläinen</a> |
-<a href="">Vladislav Goliyanik</a> </br>
-<a href="">Marc Habermann</a> |
-<a href="">Christian Theobalt</a> | 
-<a href="">Philipp Slusallek</a> </br>
+<a href="https://people.mpi-inf.mpg.de/~ncheema/">Noshaba Cheema</a> | 
+<a href="https://www.linkedin.com/in/rui-xu-34474839">Rui Xu</a> |
+<a href="https://namheegordonkim.github.io/">Nam Hee Kim</a> |
+<a href="https://users.aalto.fi/~hamalap5/">Perttu Hämäläinen</a> |
+<a href="https://people.mpi-inf.mpg.de/~golyanik/">Vladislav Golyanik</a> </br>
+<a href="https://people.mpi-inf.mpg.de/~mhaberma/">Marc Habermann</a> |
+<a href="https://people.mpi-inf.mpg.de/~theobalt/">Christian Theobalt</a> | 
+<a href="https://graphics.cg.uni-saarland.de/people/slusallek.html">Philipp Slusallek</a> </br>
 <b>SIGGRAPH Asia 2023 Conference Paper</b>
 </p>
 
